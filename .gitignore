@@ -1,0 +1,15 @@
+# build products
+/build/
+/build-debug/
+/downstream/build/
+
+# proof / example output artifacts
+example_ledger.db
+consumer_ledger.db
+bench_ledger.db
+test_persist_ledger.db
+iledger_proof_out.txt
+
+# editor / OS
+.DS_Store
+Thumbs.db
