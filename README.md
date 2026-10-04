@@ -9,7 +9,7 @@ and what exact cost should be attributed to it.
 Inference Ledger owns exact, replayable accounting for inference-runtime resource
 consumption and useful work. It observes and attributes consumption; it does not
 decide admission, scheduling, quota, latency policy, placement, residency or
-transfer policy. It does not duplicate Serving Observatory: Inference Ledger is
+transfer policy. It does not duplicate [Serving Observatory](https://github.com/pngen/Serving-Observatory): Inference Ledger is
 not a metrics collector, dashboard or billing wrapper — it is the accounting
 plumbing.
 
